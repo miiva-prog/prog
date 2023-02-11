@@ -12,7 +12,7 @@ void init(int *arr,int n)
 
 int main()
 {
-    int *arr;
+    int *arr = NULL;
     int n = 10;
 
     arr = malloc(n * sizeof(int));
@@ -24,6 +24,8 @@ int main()
     for(i = 0;i < n;++i){
         printf("%d\n",arr[i]);
     }
+
+    free(arr);
 
     return 0;
 }
