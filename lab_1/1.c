@@ -25,7 +25,5 @@ int main()
         printf("%d\n",arr[i]);
     }
 
-    arr = NULL;
-
     return 0;
 }
