@@ -7,7 +7,7 @@ typedef struct{
 
 void format(NumberRepr* number)
 {
-    sprintf(number->str, "%d", number->num);
+    sprintf(number->str, "%3d", number->num);
 }
 
 int main()
